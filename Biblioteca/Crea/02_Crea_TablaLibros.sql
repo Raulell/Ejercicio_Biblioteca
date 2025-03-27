@@ -1,0 +1,8 @@
+USE Biblioteca
+CREATE TABLE TablaLibros (
+    LibroID INT PRIMARY KEY IDENTITY(1,1),
+    Titulo NVARCHAR(255) NOT NULL,
+    AutorID TINYINT NOT NULL,
+    FechaEdicion DATE CHECK (YEAR(FechaEdicion) BETWEEN 1900 AND 1940),
+    CONSTRAINT CHK_FechaEdicion CHECK (FechaEdicion BETWEEN '1900-01-01' AND '1940-12-31')
+);

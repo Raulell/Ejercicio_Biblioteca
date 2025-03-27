@@ -1,0 +1,2 @@
+--RUTA:
+--C:\Users\campusc14.CITRIXDA\Documents\SQL Server Management Studio

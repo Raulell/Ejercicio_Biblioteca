@@ -1,0 +1,4 @@
+USE Biblioteca
+CREATE TABLE TablaAutores (
+    AutorID TINYINT PRIMARY KEY NOT NULL,
+    Nombre NVARCHAR(255) NOT NULL)
